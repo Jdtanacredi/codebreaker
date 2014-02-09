@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65d317aa-7f78-4cec-a3cb-2a1a1462b451" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/codebreaker" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/env.rb" afterPath="$PROJECT_DIR$/features/support/env.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/codebreaker_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/codebreaker_steps.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/codebreaker/game.rb" afterPath="$PROJECT_DIR$/lib/codebreaker/game.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/codebreaker/game_spec.rb" afterPath="$PROJECT_DIR$/spec/codebreaker/game_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="codebreaker.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/codebreaker_submits_guess.feature" changelist="65d317aa-7f78-4cec-a3cb-2a1a1462b451" time="1391661698879" ignored="false" />
     <file path="/Dummy.txt" changelist="65d317aa-7f78-4cec-a3cb-2a1a1462b451" time="1391885634808" ignored="false" />
-    <file path="/codebreaker_steps.rb" changelist="65d317aa-7f78-4cec-a3cb-2a1a1462b451" time="1391731475383" ignored="false" />
-    <file path="/game.rb" changelist="65d317aa-7f78-4cec-a3cb-2a1a1462b451" time="1391886454034" ignored="false" />
+    <file path="/codebreaker_steps.rb" changelist="65d317aa-7f78-4cec-a3cb-2a1a1462b451" time="1391934822881" ignored="false" />
+    <file path="/game.rb" changelist="65d317aa-7f78-4cec-a3cb-2a1a1462b451" time="1391934652862" ignored="false" />
     <file path="/codebreaker.rb" changelist="65d317aa-7f78-4cec-a3cb-2a1a1462b451" time="1391729488976" ignored="false" />
     <file path="/env.rb" changelist="65d317aa-7f78-4cec-a3cb-2a1a1462b451" time="1391729536774" ignored="false" />
     <file path="/game_spec.rb" changelist="65d317aa-7f78-4cec-a3cb-2a1a1462b451" time="1391894124552" ignored="false" />
@@ -37,10 +36,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="game.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="game.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/codebreaker/game.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="3" selection-start="201" selection-end="201" vertical-scroll-proportion="0.1724138">
+            <state line="11" column="3" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="codebreaker_steps.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/codebreaker_steps.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="0" selection-start="496" selection-end="496" vertical-scroll-proportion="0.5015674">
               <folding />
             </state>
           </provider>
@@ -49,7 +57,7 @@
       <file leaf-file-name="game_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/codebreaker/game_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0">
+            <state line="9" column="37" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -85,13 +93,13 @@
         <option value="$PROJECT_DIR$/features/codebreaker_starts_game.feature" />
         <option value="$PROJECT_DIR$/features/codebreaker_submits_guess.feature" />
         <option value="$PROJECT_DIR$/lib/codebreaker.rb" />
-        <option value="$PROJECT_DIR$/features/step_definitions/codebreaker_steps.rb" />
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
-        <option value="$PROJECT_DIR$/lib/codebreaker/game.rb" />
-        <option value="$PROJECT_DIR$/spec/codebreaker/game_spec.rb" />
         <option value="$PROJECT_DIR$/bin/codebreaker" />
         <option value="$PROJECT_DIR$/features/support/env.rb" />
         <option value="$PROJECT_DIR$/bin/codebreaker.rb" />
+        <option value="$PROJECT_DIR$/spec/codebreaker/game_spec.rb" />
+        <option value="$PROJECT_DIR$/lib/codebreaker/game.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/codebreaker_steps.rb" />
       </list>
     </option>
   </component>
@@ -143,6 +151,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="codebreaker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codebreaker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codebreaker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codebreaker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codebreaker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="step_definitions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -328,9 +368,9 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23304157" sideWeight="0.67005074" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -445,13 +485,6 @@
         <state line="15" column="23" selection-start="570" selection-end="570" vertical-scroll-proportion="0.28885135" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/codebreaker_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="10" selection-start="121" selection-end="121" vertical-scroll-proportion="0.16059957">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/codebreaker.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
@@ -462,13 +495,6 @@
     <entry file="file://$PROJECT_DIR$/bin/codebreaker">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="150" selection-end="150" vertical-scroll-proportion="0.19650654">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/codebreaker/game_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -496,7 +522,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/codebreaker/game.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="3" selection-start="201" selection-end="201" vertical-scroll-proportion="0.1724138">
+        <state line="11" column="3" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/codebreaker/game_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="37" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/codebreaker_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="496" selection-end="496" vertical-scroll-proportion="0.5015674">
           <folding />
         </state>
       </provider>
