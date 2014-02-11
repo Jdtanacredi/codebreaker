@@ -3,17 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="65d317aa-7f78-4cec-a3cb-2a1a1462b451" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/codebreaker/game.rb" afterPath="$PROJECT_DIR$/lib/codebreaker/game.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/codebreaker/game_spec.rb" afterPath="$PROJECT_DIR$/spec/codebreaker/game_spec.rb" />
     </list>
     <ignored path="codebreaker.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/codebreaker_submits_guess.feature" changelist="65d317aa-7f78-4cec-a3cb-2a1a1462b451" time="1391661698879" ignored="false" />
     <file path="/Dummy.txt" changelist="65d317aa-7f78-4cec-a3cb-2a1a1462b451" time="1392082458984" ignored="false" />
     <file path="/codebreaker_steps.rb" changelist="65d317aa-7f78-4cec-a3cb-2a1a1462b451" time="1391970824724" ignored="false" />
-    <file path="/game.rb" changelist="65d317aa-7f78-4cec-a3cb-2a1a1462b451" time="1392084434575" ignored="false" />
+    <file path="/game.rb" changelist="65d317aa-7f78-4cec-a3cb-2a1a1462b451" time="1392089872172" ignored="false" />
     <file path="/codebreaker.rb" changelist="65d317aa-7f78-4cec-a3cb-2a1a1462b451" time="1391729488976" ignored="false" />
     <file path="/env.rb" changelist="65d317aa-7f78-4cec-a3cb-2a1a1462b451" time="1391729536774" ignored="false" />
-    <file path="/game_spec.rb" changelist="65d317aa-7f78-4cec-a3cb-2a1a1462b451" time="1391973647406" ignored="false" />
+    <file path="/game_spec.rb" changelist="65d317aa-7f78-4cec-a3cb-2a1a1462b451" time="1392086963886" ignored="false" />
     <file path="/spec_helper.rb" changelist="65d317aa-7f78-4cec-a3cb-2a1a1462b451" time="1391811293488" ignored="false" />
     <file path="/codebreaker" changelist="65d317aa-7f78-4cec-a3cb-2a1a1462b451" time="1391895412186" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,7 +38,7 @@
       <file leaf-file-name="game.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/codebreaker/game.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="3" selection-start="594" selection-end="594" vertical-scroll-proportion="0.48589343">
+            <state line="32" column="3" selection-start="640" selection-end="640" vertical-scroll-proportion="0.5015674">
               <folding />
             </state>
           </provider>
@@ -56,7 +56,7 @@
       <file leaf-file-name="game_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/codebreaker/game_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="882" selection-end="882" vertical-scroll-proportion="0.0">
+            <state line="19" column="7" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -508,14 +508,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/codebreaker/game_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="882" selection-end="882" vertical-scroll-proportion="0.0">
+        <state line="19" column="7" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/codebreaker/game.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="3" selection-start="594" selection-end="594" vertical-scroll-proportion="0.48589343">
+        <state line="32" column="3" selection-start="640" selection-end="640" vertical-scroll-proportion="0.5015674">
           <folding />
         </state>
       </provider>
