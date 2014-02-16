@@ -11,20 +11,32 @@ module Codebreaker
     end
 
     def guess(guess)
-      exact_match_count = 0
-      number_match_count = 0
-      (0..3).each do |index|
-        if exact_match?(guess, index)
-          exact_match_count += 1
-        end
-      end
-      (0..3).each do |index|
-        if number_match?(guess, index)
-          number_match_count += 1
-        end
-      end
-      @output.puts '+'*exact_match_count + '-'*number_match_count
+      @output.puts '+'*exact_match_count(guess) + '-'*number_match_count(guess)
     end
+
+    def exact_match_count(guess)
+      (0..3).inject(0) {|count, index | count + (exact_match?(guess, index) ? 1 : 0)}
+      #exact_match_count = 0
+      #(0..3).each do |index|
+      #  if exact_match?(guess, index)
+      #    exact_match_count += 1
+      #  end
+      #end
+      #exact_match_count
+    end
+
+    def number_match_count(guess)
+      (0..3).inject(0) do |count, index|
+        count + (number_match?(guess, index) ? 1 : 0)
+      #number_match_count = 0
+      #(0..3).each do |index|
+      #  if number_match?(guess, index)
+      #    number_match_count += 1
+      #  end
+      end
+      #number_match_count
+    end
+
 
     def exact_match?(guess, index)
       guess[index] == @secret[index]
